@@ -1,0 +1,57 @@
+.container{
+	display: grid;
+	grid-gap: 20px;
+	/*
+	grid-template-columns: repeat(autofill, minmax(200px,1fr));
+	grid-template-rows: 1fr ;
+	*/
+	grid-template-columns: 1fr 1fr 2fr; 
+}
+
+/*
+Need to learn :
+1.What exactly does the rgba(0,0,0,0.8) 0px 5px 15px,inset rgba(0,0,0,0.15) do
+2.Explore grid more like its display,grid-template,grid-gap,justify-items,align-items,justify-content,align-content
+,grid-auto-flow
+
+*/
+
+
+.zone{
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	font-size: 10em;
+	border-radius: 4px;
+	border:1px solid #bbb;
+	transition: all 0.3s linear;
+}
+
+.zone:hover{
+	box-shadow: rgba(0,0,0,0.8) 0px 5px 15px,inset rgba(0,0,0,0.15);
+}
+
+.green{
+	background: #56B870;
+
+}
+
+.red{
+    background: #ff4d4d;
+}
+
+.blue{
+	background: #668cff;
+}
+
+.yellow{
+	background: #ffff4d ;
+}
+
+.purple{
+	background: #aa80ff ;
+}
+
+.brown{
+	background: #ff7733 ;
+}
